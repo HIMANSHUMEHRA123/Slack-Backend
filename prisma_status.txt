@@ -1,0 +1,9 @@
+Environment variables loaded from .env
+Prisma schema loaded from prisma\schema.prisma
+Datasource "db": PostgreSQL database "postgres", schema "public" at "aws-1-ap-south-1.pooler.supabase.com:5432"
+
+No migration found in prisma/migrations
+The current database is not managed by Prisma Migrate.
+        
+Read more about how to baseline an existing production database:
+https://pris.ly/d/migrate-baseline
