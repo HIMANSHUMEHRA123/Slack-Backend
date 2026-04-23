@@ -8,6 +8,7 @@ async function bootstrap() {
     origin: process.env.FRONTEND_URL ?? 'http://localhost:3000',
     credentials: true,
   });
+   app.setGlobalPrefix('api')
 
   await app.listen(process.env.PORT ?? 4000);
   console.log(`🚀 Server running on http://localhost:4000`);
